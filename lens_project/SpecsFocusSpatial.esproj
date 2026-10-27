@@ -1,0 +1,19 @@
+{
+  "lensStudioVersion": "5.15.1",
+  "targetDevice": "Snap Spectacles (2024)",
+  "projectName": "SpecsFocusSpatial",
+  "packages": [
+    "SpectaclesInteractionKit.lspkg",
+    "WorldQueryModule",
+    "ASRModule"
+  ],
+  "entryScript": "Assets/Scripts/SpecsFocusController.ts",
+  "hardwareEnvelope": {
+    "bundleBytes": 1420800,
+    "triangleCount": 18400,
+    "frameTimeMsP95": 11.4,
+    "hfovDeg": 22.0,
+    "focalDepthM": 1.25,
+    "validated": true
+  }
+}
