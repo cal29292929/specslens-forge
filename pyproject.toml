@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specslens-forge"
+version = "1.0.0"
+description = "SpecsFocus Spatial: See-Through AR Task & Timer Assistant for Snap Spectacles (SPECS)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Kazutoshi Hayashi (LUMA LAB)"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
